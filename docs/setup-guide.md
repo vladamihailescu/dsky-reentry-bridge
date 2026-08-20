@@ -2,7 +2,7 @@
 
 This guide covers everything needed to get a physical DSKY replica talking to *Reentry - A Space Flight Simulator* (Steam), starting from a completely blank/formatted SD card.
 
-**Assumes the physical hardware already exists and is wired up**: a Raspberry Pi, a Nextion display connected through an SC16IS752 UART-over-I2C HAT, an Alert Lamps panel connected over native USB, and a DSKY keyboard that shows up as a USB HID device. This guide does not cover building that hardware - see the main [DSKY-Project](https://github.com/vladamihailescu/DSKY-Project) repo for the physical build (PCBs, wiring, 3D-printed parts, credits).
+**Assumes the physical hardware already exists and is wired up**: a Raspberry Pi, a Nextion display connected through an SC16IS752 UART-over-I2C HAT, an Alert Lamps panel connected over native USB, and a DSKY keyboard that shows up as a USB HID device. This guide does not cover building that hardware - see the main [apollo-dsky-project](https://github.com/vladamihailescu/apollo-dsky-project) repo for the physical build (PCBs, wiring, 3D-printed parts, credits).
 
 Two machines are involved:
 - **The Raspberry Pi** - drives the physical display, lamps, and keyboard.

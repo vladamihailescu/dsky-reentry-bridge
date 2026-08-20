@@ -2,7 +2,7 @@
 
 Drives a physical Apollo DSKY replica from *Reentry - A Space Flight Simulator* (Steam) - bidirectional, no game mod required. Verb/noun/program/registers/lamps flow from the game to the hardware; physical key presses (VERB, NOUN, digits, ENTR, PRO, RSET, etc.) flow back into the game.
 
-Built as a companion to [DSKY-Project](https://github.com/vladamihailescu/DSKY-Project), the physical hardware (Raspberry Pi, Nextion display, Alert Lamps panel, keyboard) this bridge drives. That repo covers the hardware build; this one covers this specific integration.
+Built as a companion to [apollo-dsky-project](https://github.com/vladamihailescu/apollo-dsky-project), the physical hardware (Raspberry Pi, Nextion display, Alert Lamps panel, keyboard) this bridge drives. That repo covers the hardware build; this one covers this specific integration.
 
 ## How it works
 
@@ -40,4 +40,4 @@ Every part of this that talks to Reentry relies on undocumented internals, not a
 
 ## License
 
-CC0 1.0 Universal - see [LICENSE](LICENSE), matching DSKY-Project.
+CC0 1.0 Universal - see [LICENSE](LICENSE), matching apollo-dsky-project.
