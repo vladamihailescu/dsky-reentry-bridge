@@ -1,0 +1,14 @@
+[Unit]
+Description=DSKY Reentry Bridge (piDSKY_NASSP.py)
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 __INSTALL_DIR__/pi/piDSKY_NASSP.py
+Restart=on-failure
+RestartSec=2
+User=__USER__
+SupplementaryGroups=dialout input
+
+[Install]
+WantedBy=multi-user.target
